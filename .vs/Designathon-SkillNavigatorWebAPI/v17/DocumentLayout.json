@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\karth\\source\\repos\\designathon-skillnavigatorwebapi\\designathon-skillnavigatorwebapi\\controllers\\usercontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\controllers\\usercontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\karth\\source\\repos\\designathon-skillnavigatorwebapi\\designathon-skillnavigatorwebapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\karth\\source\\repos\\designathon-skillnavigatorwebapi\\designathon-skillnavigatorwebapi\\data\\skndbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\data\\skndbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\karth\\source\\repos\\designathon-skillnavigatorwebapi\\designathon-skillnavigatorwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\karth\\source\\repos\\designathon-skillnavigatorwebapi\\designathon-skillnavigatorwebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\karth\\source\\repos\\designathon-skillnavigatorwebapi\\designathon-skillnavigatorwebapi\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\karth\\source\\repos\\designathon-skillnavigatorwebapi\\designathon-skillnavigatorwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\karth\\source\\repos\\designathon-skillnavigatorwebapi\\designathon-skillnavigatorwebapi\\migrations\\20241223015345_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\migrations\\20241223015345_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241223015345_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Migrations\\20241223015345_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Migrations\\20241223015345_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Migrations\\20241223015345_InitialMigration.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Migrations\\20241223015345_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:53:45.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\appsettings.json",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-23T01:49:35.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControllercs.cs",
+              "DocumentMoniker": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Controllers\\UserControllercs.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Controllers\\UserControllercs.cs",
+              "ToolTip": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Controllers\\UserControllercs.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Controllers\\UserControllercs.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:30:03.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:23:04.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:20:54.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Entities\\User.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Entities\\User.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:19:26.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SKNdbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Data\\SKNdbcontext.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Data\\SKNdbcontext.cs",
+              "ToolTip": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Data\\SKNdbcontext.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Data\\SKNdbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:19:21.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\karth\\source\\repos\\Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI\\Program.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwB8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:18:57.307Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
