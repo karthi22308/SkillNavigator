@@ -4,7 +4,7 @@ namespace Designathon_SkillNavigatorWebAPI.Data
 {
     public class DbInitializer
     {
-        public static void Initialize(SKNsbcontext context)
+        public static void Initialize(SKNdbcontext context)
         {
 
             if (context.Users.Any()) return;

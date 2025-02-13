@@ -16,7 +16,7 @@ namespace Designathon_SkillNavigatorWebAPI.Entities
         public string Certifications { get; set; }
 
         public string InternshipDetails { get; set; }
-        public string CoursesCompleted { get; set; }
+        public string College { get; set; }
         public string LinkedInProfileLink { get; set; }
         public string ProgrammingLanguagesKnown { get; set; }
 

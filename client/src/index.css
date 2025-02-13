@@ -1,5 +1,11 @@
-body {
-  margin: 0;
-  background: url('/path/to/animated-background.gif') no-repeat center center fixed;
-  background-size: cover;
-}
+/* Apply styles specifically for the login page */
+.body-login { 
+  margin: 0; 
+  background: url('./assets/LoginImage.jpg') no-repeat center center fixed; 
+  background-size: cover; 
+} 
+.body-admin { 
+  margin: 0; 
+  background: url('./assets/testimage.png') no-repeat center center fixed; 
+  background-size: cover; 
+} 

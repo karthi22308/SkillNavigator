@@ -2,6 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Login from './Features/auth/Login';
 import Register from './Features/auth/Register';
+import Student from './Features/Pages/Student';
+import Admin from './Features/Pages/admin';
+import Trainer from './Features/Pages/trainer';
 //import Dashboard from './Features/dashboard/Dashboard';
 
 const App: React.FC = () => {
@@ -14,7 +17,9 @@ const App: React.FC = () => {
         {/* Define routes */}
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
-        {/* <Route path="/Dashboard" element={<Dashboard />} /> */}
+        <Route path="/Student" element={<Student />} /> 
+        <Route path="/admin" element={<Admin />} /> 
+        <Route path="/trainer" element={<Trainer />} /> 
       </Routes>
     </Router>
   );

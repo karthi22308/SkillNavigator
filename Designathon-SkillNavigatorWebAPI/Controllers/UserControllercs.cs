@@ -1,5 +1,6 @@
 ﻿using Designathon_SkillNavigatorWebAPI.Data;
 using Designathon_SkillNavigatorWebAPI.Entities;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Org.BouncyCastle.Crypto.Generators;
@@ -8,8 +9,8 @@ namespace Designathon_SkillNavigatorWebAPI.Controllers
 {
     public class UserControllercs :ControllerBase
     {
-        private readonly SKNsbcontext context;
-        public UserControllercs(SKNsbcontext context)
+        private readonly SKNdbcontext context;
+        public UserControllercs(SKNdbcontext context)
         {
             this.context = context;
         }
@@ -18,13 +19,13 @@ namespace Designathon_SkillNavigatorWebAPI.Controllers
             return enteredPassword== storedHashedPassword;
         }
         [HttpPost("validate")]
-        public async Task<ActionResult<User>> ValidateLogin(string username, string password)
+        public async Task<ActionResult<User>> ValidateLogin([FromBody] LoginRequest request)
         {
             // Fetch user based on username
-            var user = await context.Users.SingleOrDefaultAsync(x => x.Username == username);
+            var user = await context.Users.SingleOrDefaultAsync(x => x.Username == request.Username);
 
             // Check if user exists and validate the password
-            if (user != null && VerifyPassword(password, user.Password))
+            if (user != null && VerifyPassword(request.Password, user.Password))
             {
                 return Ok(user); // Return the user if validation succeeds
             }
@@ -32,6 +33,23 @@ namespace Designathon_SkillNavigatorWebAPI.Controllers
             // Return Unauthorized if validation fails
             return Unauthorized("Invalid username or password.");
         }
+        [HttpPost("fetchstudents")]
+        public async Task<ActionResult<List<User>>> FetchStudents()
+        {
+            // Fetch all users with the role of "Student"
+            var students = await context.Users.Where(x => x.Role == "Student").ToListAsync();
+
+            // Return the list of students
+            return Ok(students);
+        }
+
+        [HttpPost("fetchtrainers")]
+        public async Task<ActionResult<List<Trainer>>> fetchtrainers()
+        {
+            var trainers = await context.Trainers.ToListAsync();
+            return Ok(trainers);
+        }
+
         [HttpPost("register")]
         public IActionResult RegisterUser([FromBody] User request)
         {
@@ -49,11 +67,31 @@ namespace Designathon_SkillNavigatorWebAPI.Controllers
 
             };
             newUser = request;
-            context.Users.Add(newUser);
+            context.Users.Add(request);
+
+            if (newUser.Role == "Trainer")
+            {
+                newUser = request;
+                var trainer = new Trainer
+                {
+                    Name= request.Username,
+                    Email= request.Email,
+                    Specialization= request.Specialization,
+                    PhoneNumber= request.PhoneNumber
+                };
+
+                context.Trainers.Add(trainer);
+            }
             context.SaveChanges();
             return Ok(new { Message = "Registration successful!" });
 
 
         }
+    }
+    // DTO for the request
+    public class LoginRequest
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }
